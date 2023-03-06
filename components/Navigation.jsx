@@ -1,4 +1,26 @@
+import { useEffect, useState } from "react";
+
 const Navigation = () => {
+  const googleTranslateElementInit = () => {
+    new window.google.translate.TranslateElement(
+      {
+        pageLanguage: "en",
+        autoDisplay: false,
+      },
+      "google_translate_element"
+    );
+  };
+  useEffect(() => {
+    var addScript = document.createElement("script");
+    addScript.setAttribute(
+      "src",
+      "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    );
+    document.body.appendChild(addScript);
+    window.googleTranslateElementInit = googleTranslateElementInit;
+  }, []);
+  const [isValid, setIsValid] = useState("");
+
   return (
     <>
       <div className="header">
@@ -44,6 +66,7 @@ const Navigation = () => {
                 <li className="navigation__items">
                   <a href="#">Register Now</a>
                 </li>
+                <div id="google_translate_element"></div>
               </ul>
             </div>
           </div>

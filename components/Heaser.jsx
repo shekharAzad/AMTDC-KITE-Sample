@@ -1,4 +1,5 @@
 import { Row, Col, Container } from "react-bootstrap";
+
 const Heaser = () => {
   return (
     <>
@@ -13,7 +14,6 @@ const Heaser = () => {
               ></img>
             </a>
           </Col>
-
           <Col xs={5}>
             <a href="/">
               <img

@@ -16,6 +16,14 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  // const getme = async () => {
+  //   const res = await fetch("http://localhost:8080/azad");
+  //   const data = await res.json();
+  //   console.log("Data: ", data);
+  // };
+
+  // getme();
+
   return (
     <>
       <Navigation />

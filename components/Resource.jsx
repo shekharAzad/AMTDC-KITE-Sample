@@ -22,7 +22,7 @@ const Resource = () => {
               <div className="_none card__category">
                 <div className="card">
                   <img src="/images/experts.png" alt="Expert"></img>
-                  <h3>Experts</h3>
+                  <h3>Experts &nbsp;</h3>
                   <p className="font__control ">
                     Get connected with our pool of experts from various
                     engineering fields, Industries, R &amp; D organizations,
@@ -49,7 +49,7 @@ const Resource = () => {
               <div className="_none card__category">
                 <div className="card">
                   <img src="/images/products.png" alt="products"></img>
-                  <h3>Products</h3>
+                  <h3>Products &nbsp;</h3>
                   <p className="font__control">
                     A one stop shop for all the available machines their
                     specification and usability registered under KITE.
@@ -71,7 +71,7 @@ const Resource = () => {
               <div className="_none card__category">
                 <div className="card">
                   <img src="/images/services.png" alt="products"></img>
-                  <h3>Services</h3>
+                  <h3>Services &nbsp;</h3>
                   <p className="font__control">
                     A aggregator place where one can find the required
                     manufacturing services offered by our registered SME’s &
@@ -93,7 +93,7 @@ const Resource = () => {
               <div className="_none card__category">
                 <div className="card">
                   <img src="/images/digital-resources.png" alt="products"></img>
-                  <h3>Digital Resources</h3>
+                  <h3>Digital Resources &nbsp;</h3>
                   <p className="font__control">
                     Make use of the listed course materials for advanced
                     learning through presentations and videos on different

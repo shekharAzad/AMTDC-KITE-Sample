@@ -8,7 +8,7 @@ const KiteSearch = () => {
               <ul className="navigation__list">
                 <div className="dropdown">
                   <li className="navigation__items navigation__items--haschild font__control">
-                    <a href="/">Knowledge Repository</a>
+                    <a href="/knowledge-repository">Knowledge Repository</a>
                   </li>
                   <div class="dropdown-content">
                     <a href="#">Machine</a>
